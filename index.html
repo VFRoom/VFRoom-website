@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>VFRoom</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="./images/icons/shortcut-icon.svg" type="image/x-icon" />
+
+    <link rel="stylesheet" href="./fonts/montserrat.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/first-screen.css" />
+    <link rel="stylesheet" href="./styles/try-it-screen.css" />
+    <link rel="stylesheet" href="./styles/about-us-screen.css" />
+
+    <!-- <script type="text/javascript" src="./scripts/jquery/jquery-3.5.1.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./scripts/scroll.js"></script>
+</head>
+
+<body onscroll="scrolling()">
+
+    <header class="navbar">
+        <!-- Main Logo -->
+        <div class="navbar" id="header-logo">
+            <img id="header-logo-icon" src="./images/logos/header-logo-icon.svg" />
+            <img id="header-logo-text" src="./images/logos/header-logo-text.svg" />
+        </div>
+        <!-- Header Menu -->
+        <div class="navbar" id="header-menu">
+            <div class="menu-element">
+                <a href="#first-screen" class="menu-link">
+                    <div id="home-text" class="menu-text"><span>Home</span></div>
+                </a>
+            </div>
+            <div class="menu-element">
+                <a href="#try-it-screen" class="menu-link">
+                    <div id="program-text" class="menu-text"><span>Program</span></div>
+                </a>
+            </div>
+            <div class="menu-element">
+                <a href="#about-us-screen" class="menu-link">
+                    <div id="about-text" class="menu-text"><span>About us</span></div>
+                </a>
+            </div>
+            <div class="menu-element">
+                <a href="" class="menu-link">
+                    <div id="contact-text" class="menu-text"><span>Contacts</span></div>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- First Screen -->
+    <div class="screen" id="first-screen">
+        <div id="first-screen-text">
+            <div id="cant-choose"><span>Can’t choose right size<br/>of clothes?</span></div>
+            <div id="online-room"><span>An online fitting room gives you the<br/>opportunity to try on any clothes from<br/>the store, without getting up from<br/>your favorite sofa!</span></div>
+        </div>
+    </div>
+
+    <!-- Try it -->
+    <div class="screen" id="try-it-screen">
+        <div id="in-try">
+            <!-- <div id="try-text"><span>Try it!!</span></div> -->
+            <!-- <img id="phone" src="./images/phone.svg" /> -->
+            <div id="tech-description">
+                <span><i>"</i> <b>VFRoom</b> - is a <u>technology</u>that helps you try on clothes <u>virtually</u> in online stores, <u><i>without spending time in queues and in the shop</i></u>. Due to <m><u>Covid-19</u></m> we all <u>have to stay at home</u> and try to somehow brighten up our time in 4 walls. Even going to the store is difficult!
+                    <br/><m><u>VFRoom</u></m> will help you try on and buy clothes <u>without getting up from your favorite sofa.</u>
+                    And how often do you order clothes online <u>get disappointed</u>, when you find that they can't fit on you? And no, this is not because <u>you ate a lot of salads for the new year or just yesterday decided to quit the diet</u>, but because the certified sizes are much different from the real ones...<i>"</i></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- About us -->
+    <div class="screen" id="about-us-screen">
+        <!-- <img id="dialog" src="./images/dialogs.svg"> -->
+        <div id="face-icons">
+            <div id="boy-icon"><a href="boy"><img class="face-icon" src="./images/icons/boy-icon.svg"></a></div>
+            <div id="boy1-icon"><a href="boy1"><img class="face-icon" src="./images/icons/boy-icon.svg"></a></div>
+            <div id="girl-icon"><a href="girl"><img class="face-icon" src="./images/icons/girl-icon.svg"></a></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+#first-screen {
+    background: url("./../images/backgrounds/screen1-bg.svg") 0 0 no-repeat;
+    background-size: cover;
+    /* height: 1080px; */
+}
+
+#first-screen-text {
+    margin-left: 10vw;
+    padding-top: 18vw;
+}
+
+#cant-choose span {
+    font-family: "Montserrat-SemiBold";
+    font-size: 3vw;
+    line-height: 4vw;
+}
+
+#online-room {
+    margin-top: 1vw;
+}
+
+#online-room span {
+    font-family: "Montserrat-Light";
+    font-size: 1.6vw;
+}

@@ -1,0 +1,31 @@
+#about-us-screen {
+    background: url("./../images/backgrounds/about-bg.svg") no-repeat;
+    background-size: cover;
+}
+
+#face-icons {
+    padding-top: 6vw;
+}
+
+.face-icon {
+    max-height: auto;
+    max-width: 12vw;
+    margin-top: 0vw;
+}
+
+#boy-icon {
+    padding-left: 6vw;
+}
+
+#boy1-icon {
+    margin-left: calc(100% - 6vw*3);
+}
+
+#girl-icon {
+    padding-left: 6vw;
+}
+
+/* #dialog {
+    height: auto;
+    width: 100%;
+} */
