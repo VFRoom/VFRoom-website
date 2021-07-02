@@ -1,0 +1,24 @@
+#main {
+    background: url("./../img/backgrounds/main.svg") 0 0 no-repeat;
+    background-size: cover;
+}
+
+#main-screen-text {
+    margin-left: 10%;
+    padding-top: 18%;
+}
+
+#cant-choose span {
+    font-family: "Montserrat-SemiBold";
+    font-size: 54px;
+    line-height: 54px;
+}
+
+#online-room {
+    margin-top: 1%;
+}
+
+#online-room span {
+    font-family: "Montserrat-Light";
+    font-size: 26px;
+}

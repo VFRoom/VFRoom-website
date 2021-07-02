@@ -1,0 +1,51 @@
+#contacts {
+    background: url("./../img/backgrounds/about.svg") no-repeat;
+    background-size: cover;
+}
+
+.face {
+    height: 20%;
+    width: 40%;
+    margin-top: 10%;
+}
+
+.face-icon {
+    width: 25%;
+}
+
+.face-text {
+    background-color: #fff;
+    height: 40%;
+    width: 50%;
+    margin: auto 0;
+    padding: 3%;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid #000;
+    box-shadow: 0px 5px 10px 2px #223c5033 inset;
+}
+
+.face-text a:hover {
+    text-decoration: underline;
+}
+
+.face-text span:last-child {
+    font-weight: bold;
+}
+
+.face:first-child {
+    margin-left: 15%;
+}
+
+.face:last-child {
+    margin-left: 45%;
+}
+
+.face-text:last-child {
+    margin-left: 5%;
+}
+
+.face-text:first-child {
+    margin-left: auto;
+    margin-right: 5%;
+}
