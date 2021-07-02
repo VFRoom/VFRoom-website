@@ -1,0 +1,24 @@
+#what-is {
+    background: url("./../img/backgrounds/what-is.svg") no-repeat;
+    background-size: cover;
+    padding-top: 10%;
+}
+
+#desc-bg {
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+#tech-desc {
+    padding: 5%;
+    border: 4px dotted #242424;
+}
+
+#tech-desc span {
+    font-family: "Montserrat-Light";
+    font-size: 36px;
+    line-height: 42px;
+}
